@@ -2,13 +2,14 @@
 <html>
 <body>
 
-<p>Display "Good day!" if the hour is less than 18:00:</p>
-
-<p id="demo">Good Evening!</p>
+<p>My first JS program</p>
 
 <script>
-if (new Date().getHours() < 18) {
-  document.getElementById("demo").innerHTML = "Good day!";
+let year = prompt ('In which year was ECMAScript-2015 specification published?', '');
+if (year >=2015) {
+    alert ('You\'re very correct');
+} else {
+    alert ('No, you\'re wrong, please try again later');
 }
 </script>
 
